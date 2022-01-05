@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# innerText vs textContent
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+The main difference here is that innerText removes all the extra whitespace and pretty much shows you exactly what the HTML page renders while textContent doesn't care about visibility or not and it renders with all the whitespace so we're going to get things that are even hidden in the HTML.
 
 ## Available Scripts
 
